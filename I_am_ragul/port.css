@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-left:2px ;
+    letter-spacing: 3px;
+}
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.c1nav{
+    font-size: xx-large;
+    font-weight: 800;
+    letter-spacing: 4px;
+}  
+
+.c1nav span{
+    color: red;
+}
+  
+.pnav{
+    letter-spacing: 6px;
+    padding: 8px;
+    height: 50px;
+    display: flex;
+    
+    color: white ;
+    justify-content: space-around;
+    
+}
+.c2nav{
+    padding: 3px;
+    margin: 3px;
+    font-size: large;
+}
+    
+    
+   
+.c2nav a{
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: white;
+}
+.c2nav a:hover{
+    color: red;
+}
+.header{
+    margin-top: 40px;
+    color: white;
+    display: flex ;
+    justify-content: space-around;
+
+}
+.imgprofile{
+    width: 323px; 
+    height: 323px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 
+      0 4px 6px rgba(0, 0, 0, 0.1), /* Subtle dark shadow for depth */
+      0 6px 20px rgba(255, 0, 0, 5), /* Outer red glow */
+      0 2px 4px rgba(255, 0, 0, 8); /* Inner red shadow */
+    /* box-shadow:rgba(222, 8, 8, 0.754) 0px -23px 25px 0px inset, rgba(179, 17, 17, 0.703) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(227, 20, 20, 0.646) 0px 16px 8px, rgba(228, 6, 6, 0.897) 0px 32px 16px;; */
+    
+}
+.imgprofile img{
+    width: 100%;
+    height: auto;
+}
+.imgprofile img:hover{
+    animation: animate 1.5s ease-in-out infinite;
+}
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+.cheader{
+    width: 400px;
+    
+}
+.cheader p{
+    
+}
+.cheader ul{
+    padding: 8px;
+}
+.cheader i {
+    border-width: 10px;
+    border: 2px solid rgb(248, 9, 9);
+    border-radius:50px ;
+    color: red;
+    padding: 6px;
+    padding-left: 8px;
+    text-size-adjust: 5px;
+}
+.cheader i:hover{
+    background-color: red;
+    color: black;
+}
+li{list-style: none;}
+.cheader button{
+    padding: 4px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    text-size-adjust: 20px;
+    border: none;
+    font-weight: 900;
+}
+.cheader button:hover{
+    color: red;
+    background-color: white;
+    
+}
