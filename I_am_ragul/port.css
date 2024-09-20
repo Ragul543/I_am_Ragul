@@ -3,6 +3,7 @@
     margin: 0;
     margin-left:2px ;
     letter-spacing: 3px;
+    scroll-behavior: smooth;
 }
 .yeseva-one-regular {
     font-family: "Yeseva One", serif;
@@ -59,21 +60,26 @@
     height: 323px;
     overflow: hidden;
     border-radius: 50%;
+    cursor: not-allowed;
     box-shadow: 
       0 4px 6px rgba(0, 0, 0, 0.1), /* Subtle dark shadow for depth */
       0 6px 20px rgba(255, 0, 0, 5), /* Outer red glow */
       0 2px 4px rgba(255, 0, 0, 8); /* Inner red shadow */
     /* box-shadow:rgba(222, 8, 8, 0.754) 0px -23px 25px 0px inset, rgba(179, 17, 17, 0.703) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(227, 20, 20, 0.646) 0px 16px 8px, rgba(228, 6, 6, 0.897) 0px 32px 16px;; */
-    
+    transition: 1s;
 }
 .imgprofile img{
     width: 100%;
     height: auto;
+    
 }
-.imgprofile img:hover{
-    animation: animate 1.5s ease-in-out infinite;
+.imgprofile:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px red,
+    0 0 50px red
+
 }
-@keyframes animate{
+/* @keyframes animate{
     0%{
         scale: 1;
     }
@@ -83,30 +89,31 @@
     100%{
         scale: 1;
     }
-}
+} */
 
 .cheader{
     width: 400px;
     
 }
-.cheader p{
-    
-}
+
 .cheader ul{
     padding: 8px;
 }
 .cheader i {
-    border-width: 10px;
-    border: 2px solid rgb(248, 9, 9);
-    border-radius:50px ;
-    color: red;
-    padding: 6px;
-    padding-left: 8px;
+        border-width: 10px;
+        border: 2px solid rgb(248, 9, 9);
+        border-radius:50px ;
+        color: red;
+        padding: 6px;
+        padding-left: 8px;
     text-size-adjust: 5px;
 }
 .cheader i:hover{
     background-color: red;
     color: black;
+    cursor: pointer;
+    transform: scale(1.2)translateY(-5px);
+    box-shadow: 0 0 25px red;
 }
 li{list-style: none;}
 .cheader button{
@@ -121,5 +128,92 @@ li{list-style: none;}
 .cheader button:hover{
     color: red;
     background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 25px red;
     
 }
+.skill{
+    margin-top: 40px;
+   
+    margin-left: 20px;
+    justify-content: center;
+
+}
+.sname{
+    
+    margin: 30px;
+    
+    margin-left: 44%;
+    padding: 30px;
+}
+
+.skill h2{
+    color: white;
+    font-size: xx-large;
+   
+    
+}
+.skill span{
+    font-size: xx-large;
+    margin-left: -10px;
+    color: red;
+    
+}
+
+.bar{
+    display: flex;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 30%;
+    height: 13px;
+    margin-bottom: 20px;
+}
+.skillss{
+    color: white;
+    font-size: x-large;
+    padding: 5px;
+    display: flex;
+    width:65px ; 
+    flex-wrap: wrap;   
+}
+.first {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(38, 255, 0);
+flex-basis: 70%;}
+.second{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(178, 178, 204);
+    flex-basis: 20%; 
+}    
+.firsts {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(255, 255, 0);
+flex-basis: 80%;}
+.seconds{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(212, 167, 147);
+    flex-basis: 10%; 
+}  
+
+
+::-webkit-scrollbar{
+    width: 16px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    box-shadow:0 0 25px red ;
+} 
+   
