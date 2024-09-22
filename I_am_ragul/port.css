@@ -84,17 +84,6 @@
     0 0 50px red
 
 }
-/* @keyframes animate{
-    0%{
-        scale: 1;
-    }
-    50%{
-        scale: 1.05;
-    }
-    100%{
-        scale: 1;
-    }
-} */
 
 .cheader{
     width: 400px;
@@ -151,8 +140,11 @@ li{list-style: none;}
     margin-top: -10px;
 
 }
+.stitle{
+    font-size: xx-large;
+}
 .sname{
-    
+ 
     margin: 30px;
     
     margin-left: 44%;
@@ -162,14 +154,14 @@ li{list-style: none;}
 
 .skill h2{
     color: white;
-    font-size: xx-large;
+    
    
     
 }
-.skill span{
-    font-size: xx-large;
-    margin-left: -10px;
-    color: red;
+.sname span{
+    
+    margin-left: -12px;
+    color: rgb(255, 4, 0);
     
 }
 
@@ -281,16 +273,17 @@ flex-basis: 70%;}
     flex-wrap: wrap;
     width: 100%;
     height: 50px;
+    font-size: xx-large;
 }
 .tile h1{
-    font-size: xx-large;
+    
     color: white;
     flex-basis: 50%;
     margin-left: 10px;
     
 }
 .tile span{
-    font-size: xx-large;
+   
     color: red;
 }
 .sentence{
@@ -312,6 +305,11 @@ flex-basis: 70%;}
     color: white;
     margin-left: 20px;
     padding: 10px;
+    /* position: absolute; */
+}
+.ptitle{
+margin-bottom: 20px;
+font-size: xx-large
 }
 .ptitle span{
 color: red;
@@ -322,19 +320,43 @@ margin-left: -5px;
     height: 280px;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
+    margin: 20px;
 
     
 }
 .projectimg{
+    width: 328px;
+    height: 280px;
+    cursor: pointer;
+}
+
+
+.pophead{
     width: 330px;
     height: 280px;
-}
-.pophead{
+    background-color: black;
     position: relative;
-    left: 0;
-    bottom: 0;
+    opacity: 0;
+    bottom:100% ;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+}
+.pophead:hover{
+   
+    display: inline-block;
+    opacity: 80%;
+}
+.poptitle{
+    margin-top: 30%;
 
+}
+#linkaxis:hover{
+    transform:scale(1.2);
 }
 
 ::-webkit-scrollbar{
