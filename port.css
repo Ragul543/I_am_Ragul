@@ -406,9 +406,21 @@ margin-left: -5px;
 #x{margin-left: 210px;
 padding: 8px;}
 
-@media Screen and (max-width:575px){
-    
+@media Screen and (max-width:576px){
+        
         .pbar{display: flex;}
         .c2nav{display: none;}
-        .c1nav{display: ;}
+        .imgprofile{ margin-left: 130px;}
+        .header{display: block;}
+        #bar{padding-top: 12px;
+        font-size: larger;}
+        #x{padding-top: 15px;
+        font-size: larger;}
+        .sname{margin-left: 130px;}
+        .bar{width: 350px;}
+        .pproject{padding-left: 100px;}
+        .ptitle{margin-left: 50px;}
+        .pabout{display: block;}
+        
+        
     }
