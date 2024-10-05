@@ -410,7 +410,7 @@ padding: 8px;}
         
         .pbar{display: flex;}
         .c2nav{display: none;}
-        .imgprofile{ margin-left: 90px;}
+        .imgprofile{ margin-left: 60px;}
         .header{display: block;}
         #bar{padding-top: 12px;
         font-size: larger;}
@@ -418,8 +418,8 @@ padding: 8px;}
         font-size: larger;}
         .sname{margin-left: 110px;}
         .bar{width: 350px;}
-        .pproject{padding-left: 50px;}
-        .ptitle{margin-left: 20px;}
+        .pproject{padding-left: 30px;}
+        .ptitle{margin-left: 10px;}
         .pabout{display: block;}
         
         
