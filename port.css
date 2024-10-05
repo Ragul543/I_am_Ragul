@@ -39,7 +39,10 @@
     padding: 3px;
     margin: 3px;
     font-size: large;
+    
+
 }
+.pbar{display: none;}
     
     
    
@@ -370,5 +373,42 @@ margin-left: -5px;
     background-color: red;
     box-shadow:0 0 25px red ;
 } 
+.pbarnav{
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    width: 250px;
+    height: 1200px;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    left: -260px;
+    transition: 2s;
 
-   
+}
+.pbarnav a{
+   display: block;
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+
+}
+#bar{
+    position: relative;
+    z-index: 2;
+}
+#bar{
+    display: flex;
+    margin-left:300px;
+}
+#x{margin-left: 210px;
+padding: 8px;}
+
+@media Screen and (max-width:575px){
+    
+        .pbar{display: flex;}
+        .c2nav{display: none;}
+        .c1nav{display: ;}
+    }
