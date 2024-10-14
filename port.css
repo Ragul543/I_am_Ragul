@@ -375,7 +375,7 @@ margin-left: -5px;
 } 
 .pbarnav{
     /* background-color: rgb(255, 0, 0); */
-    background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaPmTDrhq_M4iMDkIfXZgy3Tjlk8tEQPB2AVIUx1vKgcCc35pJ);
+    background-image:url(/images/port-nav-bg-img.jpg);
     position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -408,6 +408,57 @@ margin-left: -5px;
 }
 #x{margin-left: 210px;
 padding: 8px;}
+.row{
+    color: white;
+}
+#contact{
+    margin-left: 100px !important;
+    justify-content: center;
+
+   
+}
+.text{
+    margin-left: 5px;
+    color: red;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.form{
+    padding: 2px;
+    margin: 8px;
+    width: 400px;
+    height: 40px;
+}
+.four{
+    padding: 8px;
+    margin: 8px;
+     
+    
+}
+.btn-contact{
+display: inline-block;
+letter-spacing: 0;
+width: 100px;
+height: 30px;
+text-align: center;
+padding: 5px;
+border-radius: 25px;
+border: none;
+margin: 10px;
+background-color: red;
+font-weight: 500;
+color: white;
+}
+/* footer */
+footer{
+    display: flex;
+}
+.white{
+    color: red;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
 
 @media Screen and (max-width:576px){
         
