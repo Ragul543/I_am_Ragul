@@ -449,6 +449,14 @@ background-color: red;
 font-weight: 500;
 color: white;
 }
+.btn-contact:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 25px red;
+    font-weight: 600;
+    width: 110px;
+}
 /* footer */
 footer{
     display: flex;
@@ -457,6 +465,15 @@ footer{
     color: red;
     font-size: larger;
     padding-bottom: 10px;
+}
+.col a{text-decoration: none;}
+.col i:hover{
+    border-radius: 25px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transform: scale(1)translateY(-5px);
+    box-shadow: 0 0 25px red;
 }
 
 
