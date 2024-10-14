@@ -475,6 +475,12 @@ footer{
         .pproject{padding-left: 30px;}
         .ptitle{margin-left: 10px;}
         .pabout{display: block;}
+        #contact{
+            margin-left: 0px !important;
+        }
+        textarea{width:400px;
+        }
+        
         
         
     }
